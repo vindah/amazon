@@ -1,0 +1,12 @@
+{
+  "chromeWebSecurity": false,
+  "pageLoadTimeout": 60000,
+  "watchForFileChanges": false,
+  "execTimeout": 10000,
+  "env": {
+    "url": "https://www.amazon.in/"
+  },
+  "viewportHeight": 960,
+  "viewportWidth": 1600,
+  "baseUrl": "https://reqres.in/api"
+}
