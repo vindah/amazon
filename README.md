@@ -12,9 +12,16 @@ Mocha framework was used in the integration/get-planet.spec.js for describing an
 `git clone https://github.com/vindah/amazon.git`
 - Launch IDE and open project
 - Navigate to folder on terminal and '**npm install**'
-- To run cypress, on terminal type '**node_module/.bin/cypress open**' or '**npx cypress open**'
+
+**To run cypress in GUI, in terminal type:** 
+`node_module/.bin/cypress open` 
+or
+ `npx cypress open`
 - Select the API test file
 - RUN TEST!
+
+**To run cypress headless, in terminal, type:**
+`npx cypress run -- --record --spec "cypress/integration/api-test/post-user.js"`
 
 # Tour
 Fixtures folder -> For test data
